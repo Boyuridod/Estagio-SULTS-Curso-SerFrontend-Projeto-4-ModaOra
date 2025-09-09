@@ -17,10 +17,28 @@ header{
     color: white;
     background-color: var(--background-header);
     position: sticky;
-    width: 100%;
     height: 100px;
     display: flex;
     align-items: center;
+    padding: 0 1%;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.div h2{
+    margin: 12% 0 5% 0;
+    font-size: 4vw;
+}
+
+.div p{
+    margin: 0 10%;
+    font-size: 2vw;
+    text-align: center;
 }
 
 img{
