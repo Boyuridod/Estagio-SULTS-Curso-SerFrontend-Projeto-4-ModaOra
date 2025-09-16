@@ -18,17 +18,35 @@ header{
     color: white;
     background-color: var(--background-header);
     position: sticky;
-    height: 100px;
+    height: 10vh;
     display: flex;
     align-items: center;
     padding: 0 1%;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.header-lista{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 5px;
+}
+
+.header-link{
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+}
+
+.header-link:hover{
+    text-decoration: underline;
 }
 
 .escolha-certa{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 .escolha-certa h2{
@@ -65,24 +83,42 @@ main{
 }
 
 .modelo h3{
-    font-size: 300%;
+    font-size: 3vw;
     margin: 5%;
 }
 
 .modelo p{
-    font-size: 150%;
+    font-size: 2vw;
 }
 
 .detalhes{
-    width: 100%;
-    height: 100vh;
     background-color: var(--box-background);
     background-image: url("../images/bg_detalhe.png");
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 50%;
     color: var(--text-color-alt);
-    align-items: start;
+    padding: 5%;
+}
+
+.detalhes-titulo{
+    margin: 5% 0;
+    font-size: 5vw;
+}
+
+.detalhes-texto{
+    padding: 5% 0;
+    font-size: 2vw;
+}
+
+.footer{
+    display: flex;
+    padding: 3% 0;
+    background-color: var(--footer-background);
+    color: white;
+    font-size: 2vh;
+    justify-content: center;
+    align-items: center;
 }
 
 .whatsapp{
